@@ -1,0 +1,14 @@
+{
+    "name": "inguru/content-back",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ContentBack\\": "src/"
+        }
+    }
+}
